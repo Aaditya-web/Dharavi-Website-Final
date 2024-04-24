@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body
+  {
+    font-family: "Lato", sans-serif;
+    background-color: orange;
+  } 
+
+  
+  
+  .w3-wide{
+    font-weight: bold;
+    font-size:40px;
+  }
+  .w3-top{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+
+  .paragraph{
+    font-weight: bold;
+    font-size:30px;
+  }
+
+  .facts{
+    font-size:15px;
+  }
+  
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column{
+  float: left;
+  width: 50%;
+  padding: 5px;
+  }
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  
+  </style>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="businnesses.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SUPPORT BUSINESSES</a>
+    <a href="volunteer.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VOLUNTEER</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    </div>
+  </div>
+</div>
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">ABOUT DHARAVI</h2>
+    <p class="w3-justify">Dharavi is one of the world's largest slums. It has an area of 2.1 square kilometers and is home to more than one million people.
+      However, in defiance of the usual stereotypes of stagnation and poverty, Dharavi is home to a bustling economy, valued at more than $1 billion. Its entrepeneurs, youth, and artisans are helping create a better tomorrow with their resilience and innovation.
+      Click on the videos below to get a glimpse of life in Dharavi. </p>
+    <div class="w3-row w3-padding-32">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K8LnLCmhG1k?si=DMb34YqXqMpDMZll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PBMDGcYWPvU?si=OdJUWx8yiwakKqc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>      
+    </div>
+
+<div class="fun_facts">
+  <p class="paragraph">FUN FACTS</p>
+  <p1 class="facts">
+    <li>Historical Island: In the 18th century, Dharavi was actually an island.</li>
+    <li>Young Innovators: A couple of 13-14 year old girls from Dharavi have created Android apps, including one that notifies users about their turn to fetch water from the communal tap.</li>
+    <li>Economic Powerhouse: Despite its reputation as a slum, Dharavi has a bustling economy with an annual turnover of over USD 650 million.</li>
+    <li>Recycling Hub: The recycling units in Dharavi not only process waste from Mumbai but from all over the country and even abroad, contributing significantly to the economy.</li>
+    <li>Cultural Melting Pot: Dharavi is home to a diverse population with people from various religious, ethnic, and linguistic backgrounds living together.</li>
+    <br><br>
+    <p3 class="facts">
+      Here are two groups of young people making a difference: DharaviRocks, a rock band of rag-pickers using music to uplift themselves from poverty, and a group of young girls who have created an app called Women Fight Back, using technology to boost women's safety.
+    </p3>
+  </p1>
+  <div class="row">
+    <div class="column">
+      <img src="Dharavirocks.jpg" alt="band" style="height:200px; width: 300px;">
+    </div>
+    <div class="column">
+      <img src="Girlsapp.jpg" alt="app" style="height: 200px; width: 300px" class="img2">
+    </div>
+</div>
+</body>
+
+</html>
